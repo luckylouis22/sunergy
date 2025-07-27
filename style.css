@@ -1,0 +1,420 @@
+/* NAV & FOOTER ALL PAGES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+audio{
+  margin-bottom: -6vh;
+  width: 30vw;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 3vh;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.logo {
+  width: 60px;
+  height: 60px;
+  margin: 10px auto;
+}
+footer {
+  background-color: black;
+  height: 30vh;
+  color: white;
+}
+.list {
+  font-size: 3vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+}
+.list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.list a:hover {
+  color: gainsboro;
+}
+.copyright {
+  text-align: center;
+}
+.item1 {
+  padding: 5%;
+}
+.item2 {
+  padding: 5%;
+}
+.item3 {
+  padding: 5%;
+}
+.item4 {
+  padding: 5%;
+}
+/* INDEX PAGE CSS */
+.p1title-image {
+  width: 100vw;
+  object-fit: fill;
+  height: 600px;
+}
+.title-info {
+  margin-top: -60vh;
+}
+.title1 {
+  font-size: 7vw;
+  text-align: right;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.title2 {
+  font-size: 4vw;
+  text-align: right;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+h2 {
+  text-align: right;
+}
+.p1titletext {
+  font-size: 3.5vw;
+  max-width: 40%;
+  margin-left: 3vw;
+  margin-top: 3vh;
+}
+button {
+  background-color: #ddf6d2;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  font-size: 3vw;
+  margin-top: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.p1text1 {
+  text-align: center;
+  margin-top: 50vh;
+  margin-bottom: 10%;
+  font-size: 2.5rem;
+}
+.image-container1 {
+  position: relative;
+}
+.image-container2 {
+  position: relative;
+  margin-top: -5px;
+}
+.p1text2 {
+  position: absolute;
+  left: 50%;
+  font-size: 3vw;
+  width: 45%;
+  margin-top: -45%;
+  color: white;
+  text-align: center;
+}
+.p1text3 {
+  position: absolute;
+  left: 5%;
+  font-size: 3vw;
+  width: 45%;
+  margin-top: -90%;
+  color: white;
+  text-align: center;
+}
+
+.p1title-image2 {
+  display: none;
+}
+
+/* WHY SOLAR PAGE CSS */
+.p2title {
+  color: white;
+  font-size: 10vw;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  width: 60vw;
+  margin: -60vh auto 0 auto;
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-size: 7vw;
+  margin-top: 40vh;
+}
+.process-img {
+  display: none;
+}
+/* ABOUT PAGE CSS */
+.p3title{
+  color: white;
+  font-size: 15vw;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+  width: 60vw;
+  margin: -60vh auto 0 auto;
+  font-style: italic
+}
+.p3text1{
+  margin-top: 60vh;
+  font-weight: bold;
+  font-size: 7vw;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.p3text2 {
+  position: absolute;
+  left: 50%;
+  font-size: 4vw;
+  font-weight: 400;
+  width: 45%;
+  margin-top: -45%;
+  color: white;
+  text-align: center;
+}
+.solartext{
+  position: absolute;
+  left: 50%;
+  font-size: 7vw;
+  font-weight: 100;
+  width: 45%;
+  margin-top: -45%;
+  color: white;
+  text-align: center;
+}
+.dif{
+  font-weight: bold;
+  text-decoration: underline; 
+}
+.middle_text{
+  margin:3vh ;
+  font-size: 5vw;
+}
+.items{
+  margin: 5vh;
+}
+.end{
+  font-size: 5vw;
+  text-align: center;
+  width: 90%;
+  padding: 10%;
+}
+@media only screen and (min-width: 900px) {
+  #titleimage {
+    display: none;
+  }
+  #titleimage2 {
+    display: unset;
+    width: 100vw;
+    object-fit: fill;
+    height: 600px;
+  }
+  .p1text1 {
+    margin-top: 30vh;
+  }
+  .p1text2 {
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    margin: 3% 0;
+  }
+  .p1text3 {
+    color: white;
+    font-size: 20px;
+    width: 30%;
+    margin: 4% 50px;
+  }
+  .container1 {
+    background-color: #222c2a;
+    display: flex;
+    flex-direction: row;
+  }
+  .container2 {
+    background-color: #824936;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #image2 {
+    width: 40vw;
+    height: 40vh;
+    padding: 30px;
+    margin-left: 20%;
+    border-radius: 90px;
+  }
+  #image3 {
+    width: 40vw;
+    height: 40vh;
+    padding: 30px;
+    margin-right: 15vw;
+    border-radius: 90px;
+  }
+  .title-info {
+    margin-top: -70vh;
+  }
+  .p1titletext {
+    font-size: 2vw;
+  }
+
+  /* WHY SOLAR PAGE CSS */
+  .p2title {
+    font-size: 5vw;
+    margin-left: 1vw;
+    width: 50%;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 2vw;
+    margin-top: 40vh;
+  }
+  .content1 {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  }
+  .solarpanal-img {
+    padding: 2%;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+  }
+  .power-img {
+    padding: 2%;
+  }
+  .content3 {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  }
+  .lightbulb-img {
+    padding: 2%;
+  }
+  .content4 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+  }
+  .pole-img {
+    padding: 4%;
+  }
+  #process-img {
+    display: unset;
+  }
+  /* ABOUT PAGE CSS */
+  .p3title {
+    font-size: 5vw;
+    margin-left: 1vw;
+    width: 50%;
+  }
+  .p3text1{
+    font-size: 3vw;
+  }
+  .p3container1{
+    display: flex;
+    flex-direction: row;
+    padding: 10%;
+  }
+  .p3text2 {
+    color: black;
+    font-size: 3vw;
+    position: static;
+    margin-top: 20vh;
+    margin-left: 10%;
+  }
+  #pumpjack_img{
+    border-radius: 100px;
+  }
+  .p3container2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10%;
+  }
+  .solartext {
+    color: black;
+    font-size: 3vw;
+    margin-top: 20vh;
+    margin-right: 20vw;
+    position: static;
+  }
+  #solarpanel_img{
+    border-radius: 100px;
+  }
+  .middle_text{
+    font-size: 2vw;
+  }
+  .end{
+    font-size: 2vw;
+  }
+}
+@media (min-width: 1500px) {
+  .p1titletext {
+    margin-top: -23vh;
+    font-size: 2vw;
+  }
+
+}
